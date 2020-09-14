@@ -12,7 +12,7 @@ namespace Banking
         public Account(string name, string address, int age, int nid)
         {
             if (string.IsNullOrEmpty(name))
-                throw new ArgumentNullException("Ivalid ame");
+                throw new ArgumentNullException("Ivalid name");
 
             Name = name;
             Address = address;

@@ -16,8 +16,8 @@ namespace Banking
             var transaction = new Transaction();
             transaction.Transfer(account1, account2, 500);
 
-            Console.WriteLine($"Accout 1 balace: {account1.Balance}");
-            Console.WriteLine($"Accout 2 balace: {account2.Balance}");
+            Console.WriteLine($"Account 1 balace: {account1.Balance}");
+            Console.WriteLine($"Account 2 balace: {account2.Balance}");
         }
     }
 }

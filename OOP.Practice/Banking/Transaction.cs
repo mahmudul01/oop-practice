@@ -2,10 +2,10 @@
 {
     public class Transaction
     {
-        public void Transfer(Account accoutFrom, Account accoutTo, int ammount)
+        public void Transfer(Account accountFrom, Account accountTo, int ammount)
         {
-            accoutFrom.Withdraw(ammount);
-            accoutTo.Deposit(ammount);
+            accountFrom.Withdraw(ammount);
+            accountTo.Deposit(ammount);
         }
     }
 }

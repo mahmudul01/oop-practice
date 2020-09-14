@@ -14,7 +14,7 @@ namespace Stopwatch
 
             stopwatch2.Start();
 
-            Thread.Sleep(2000);
+            Thread.Sleep(7000);
 
             stopwatch1.Stop();
 
